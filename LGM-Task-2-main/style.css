@@ -1,0 +1,53 @@
+body {
+  background-color: #F7F4EA;
+}
+
+h5 {
+  font-family: "Merriweather";
+  font-weight: bold;
+}
+
+.bagCo {
+  background-color: azure;
+  background-color: #FDF4F5;
+}
+
+.card-row {
+  display: inline-block;
+  width: 50%;
+}
+
+.row {
+  margin-right: 9.8px !important;
+}
+
+button {
+  font-family: "ubuntu";
+}
+
+img {
+  width: 12% !important;
+}
+
+.text-data {
+  text-align: center;
+  font-family: "ubuntu";
+}
+
+@media (min-width: 360px) and (max-width: 764px) {
+  img {
+    width: 16% !important;
+  }
+
+  h5 {
+    font-size: 0.9rem;
+  }
+
+  p {
+    font-size: 0.72rem;
+  }
+
+  .Image {
+    width: 16%;
+  }
+}
